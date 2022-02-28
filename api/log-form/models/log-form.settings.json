@@ -1,0 +1,75 @@
+{
+  "kind": "collectionType",
+  "collectionName": "log_forms",
+  "info": {
+    "name": "LogForm",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Authorasd": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "richtext"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Time": {
+      "type": "datetime"
+    },
+    "Avata": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "ImgTitle": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "Category": {
+      "type": "enumeration",
+      "enum": [
+        "CongNghes",
+        "DuLichs",
+        "HangHieus",
+        "SucKhoes",
+        "ThoiTrangs",
+        "TinMois",
+        "Videos"
+      ]
+    },
+    "TheLoaiBai": {
+      "type": "enumeration",
+      "enum": [
+        "BaiTuViet",
+        "BaiCoppy",
+        "BaiTongHop"
+      ]
+    }
+  }
+}

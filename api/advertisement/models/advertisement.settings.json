@@ -1,0 +1,586 @@
+{
+  "kind": "collectionType",
+  "collectionName": "advertisements",
+  "info": {
+    "name": "Advertisement",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "HomeAdvertisementRight": {
+      "type": "string"
+    },
+    "HomeAdvertisementRightIMG": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "HomeAdvertisementFashion1": {
+      "type": "string"
+    },
+    "HomeAdvertisementFashion1IMG": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "HomeAdvertisementFashion2": {
+      "type": "string"
+    },
+    "HomeAdvertisementFashion2IMG": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "HomeAdvertisementFashion3": {
+      "type": "string"
+    },
+    "HomeAdvertisementFashion3IMG": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "HomeAdvertisementFashion4": {
+      "type": "string"
+    },
+    "HomeAdvertisementFashion4IMG": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "HomeAdvertisementFashion5": {
+      "type": "string"
+    },
+    "HomeAdvertisementFashion5IMG": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "HomeAdvertisementTechnology1": {
+      "type": "string"
+    },
+    "HomeAdvertisementTechnology1IMG": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "HomeAdvertisementTechnology2": {
+      "type": "string"
+    },
+    "HomeAdvertisementTechnology2IMG": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "HomeAdvertisementTechnology3": {
+      "type": "string"
+    },
+    "HomeAdvertisementTechnology3IMG": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "HomeAdvertisementTechnology4": {
+      "type": "string"
+    },
+    "HomeAdvertisementTechnology5": {
+      "type": "string"
+    },
+    "HomeAdvertisementTechnology5IMG": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "HomeAdvertisementTechnology4IMG": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "HomeAdvertisementNews1": {
+      "type": "string"
+    },
+    "HomeAdvertisementNews1IMG": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "HomeAdvertisementNews2": {
+      "type": "string"
+    },
+    "HomeAdvertisementNews2IMG": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "HomeAdvertisementNews3": {
+      "type": "string"
+    },
+    "HomeAdvertisementNews3IMG": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "HomeAdvertisementNews4": {
+      "type": "string"
+    },
+    "HomeAdvertisementNews4IMG": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "HomeAdvertisementNews5": {
+      "type": "string"
+    },
+    "HomeAdvertisementNews5IMG": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "HomeAdvertisementLiving1": {
+      "type": "string"
+    },
+    "HomeAdvertisementLiving1IMG": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "HomeAdvertisementLiving2": {
+      "type": "string"
+    },
+    "HomeAdvertisementLiving2IMG": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "HomeAdvertisementLiving3": {
+      "type": "string"
+    },
+    "HomeAdvertisementLiving3IMG": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "HomeAdvertisementLiving4": {
+      "type": "string"
+    },
+    "HomeAdvertisementLiving4IMG": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "HomeAdvertisementLiving5": {
+      "type": "string"
+    },
+    "HomeAdvertisementLiving5IMG": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "HomeAdvertisementTourism1": {
+      "type": "string"
+    },
+    "HomeAdvertisementTourism1IMG": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "HomeAdvertisementTourism2": {
+      "type": "string"
+    },
+    "HomeAdvertisementTourism2IMG": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "HomeAdvertisementTourism3": {
+      "type": "string"
+    },
+    "HomeAdvertisementTourism3IMG": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "HomeAdvertisementTourism4": {
+      "type": "string"
+    },
+    "HomeAdvertisementTourism4IMG": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "HomeAdvertisementTourism5": {
+      "type": "string"
+    },
+    "HomeAdvertisementTourism5IMG": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "HomeAdvertisementBrandstuff1": {
+      "type": "string"
+    },
+    "HomeAdvertisementBrandstuff1IMG": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "HomeAdvertisementBrandstuff2": {
+      "type": "string"
+    },
+    "HomeAdvertisementBrandstuff2IMG": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "HomeAdvertisementBrandstuff3": {
+      "type": "string"
+    },
+    "HomeAdvertisementBrandstuff3IMG": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "HomeAdvertisementBrandstuff4": {
+      "type": "string"
+    },
+    "HomeAdvertisementBrandstuff4IMG": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "HomeAdvertisementBrandstuff5": {
+      "type": "string"
+    },
+    "HomeAdvertisementBrandstuff5IMG": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "TechnologyAdvertisementRight": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "LivingAdvertisementRight": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "VideoAdvertisementRight": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "FashionAdvertisementRight": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "TourismAdvertisementRight": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "NewAdvertisementRight": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "BrandstuffAdvertisementRight": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "TechnologyAdvertisementRightContent": {
+      "type": "string"
+    },
+    "LivingAdvertisementRightContent": {
+      "type": "string"
+    },
+    "VideoAdvertisementRightContent": {
+      "type": "string"
+    },
+    "FashionAdvertisementRightContent": {
+      "type": "string"
+    },
+    "TourismAdvertisementRightContent": {
+      "type": "string"
+    },
+    "NewAdvertisementRightContent": {
+      "type": "string"
+    },
+    "BrandstuffAdvertisementRightContent": {
+      "type": "string"
+    }
+  }
+}

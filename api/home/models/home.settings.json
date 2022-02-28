@@ -1,0 +1,78 @@
+{
+  "kind": "collectionType",
+  "collectionName": "homes",
+  "info": {
+    "name": "Home",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Authorasd": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "richtext"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Avata": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "Video": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "Category": {
+      "type": "enumeration",
+      "enum": [
+        "CongNghes",
+        "DuLichs",
+        "HangHieus",
+        "SucKhoes",
+        "ThoiTrangs",
+        "TinMois",
+        "Videos"
+      ]
+    },
+    "Time": {
+      "type": "datetime"
+    },
+    "Hotnews": {
+      "type": "boolean"
+    },
+    "TheLoaiBai": {
+      "type": "enumeration",
+      "enum": [
+        "BaiTuViet",
+        "BaiCoppy",
+        "BaiTongHop"
+      ]
+    }
+  }
+}

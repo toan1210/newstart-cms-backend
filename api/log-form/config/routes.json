@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/log-forms",
+      "handler": "log-form.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/log-forms/count",
+      "handler": "log-form.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/log-forms/:id",
+      "handler": "log-form.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/log-forms",
+      "handler": "log-form.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/log-forms/:id",
+      "handler": "log-form.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/log-forms/:id",
+      "handler": "log-form.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
