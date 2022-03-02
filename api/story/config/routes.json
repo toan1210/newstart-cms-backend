@@ -2,7 +2,7 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/stories",
+      "path": "/api/stories",
       "handler": "story.find",
       "config": {
         "policies": []
@@ -10,7 +10,7 @@
     },
     {
       "method": "GET",
-      "path": "/stories/count",
+      "path": "/api/stories/count",
       "handler": "story.count",
       "config": {
         "policies": []
@@ -18,7 +18,7 @@
     },
     {
       "method": "GET",
-      "path": "/stories/:id",
+      "path": "/api/stories/:id",
       "handler": "story.findOne",
       "config": {
         "policies": []
@@ -26,7 +26,7 @@
     },
     {
       "method": "POST",
-      "path": "/stories",
+      "path": "/api/stories",
       "handler": "story.create",
       "config": {
         "policies": []
@@ -34,7 +34,7 @@
     },
     {
       "method": "PUT",
-      "path": "/stories/:id",
+      "path": "/api/stories/:id",
       "handler": "story.update",
       "config": {
         "policies": []
@@ -42,7 +42,7 @@
     },
     {
       "method": "DELETE",
-      "path": "/stories/:id",
+      "path": "/api/stories/:id",
       "handler": "story.delete",
       "config": {
         "policies": []

@@ -2,7 +2,7 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/log-forms",
+      "path": "/api/log-forms",
       "handler": "log-form.find",
       "config": {
         "policies": []
@@ -10,7 +10,7 @@
     },
     {
       "method": "GET",
-      "path": "/log-forms/count",
+      "path": "/api/log-forms/count",
       "handler": "log-form.count",
       "config": {
         "policies": []

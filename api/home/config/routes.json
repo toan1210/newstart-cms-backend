@@ -2,7 +2,7 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/homes",
+      "path": "/api/homes",
       "handler": "home.find",
       "config": {
         "policies": []
@@ -10,7 +10,7 @@
     },
     {
       "method": "GET",
-      "path": "/homes/count",
+      "path": "/api/homes/count",
       "handler": "home.count",
       "config": {
         "policies": []
@@ -18,7 +18,7 @@
     },
     {
       "method": "GET",
-      "path": "/homes/:id",
+      "path": "/api/homes/:id",
       "handler": "home.findOne",
       "config": {
         "policies": []
@@ -26,7 +26,7 @@
     },
     {
       "method": "POST",
-      "path": "/homes",
+      "path": "/api/homes",
       "handler": "home.create",
       "config": {
         "policies": []
@@ -34,7 +34,7 @@
     },
     {
       "method": "PUT",
-      "path": "/homes/:id",
+      "path": "/api/homes/:id",
       "handler": "home.update",
       "config": {
         "policies": []
@@ -42,7 +42,7 @@
     },
     {
       "method": "DELETE",
-      "path": "/homes/:id",
+      "path": "/api/homes/:id",
       "handler": "home.delete",
       "config": {
         "policies": []
