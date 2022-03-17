@@ -12,28 +12,35 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Title": {
-      "type": "string"
+    "TieuDe": {
+      "type": "string",
+      "required": true,
+      "unique": true
     },
-    "Authorasd": {
-      "type": "string"
+    "TacGia": {
+      "type": "string",
+      "required": true
     },
-    "Content": {
-      "type": "richtext"
+    "NoiDung": {
+      "type": "richtext",
+      "required": true,
+      "unique": false,
+      "private": false
     },
-    "Description": {
-      "type": "richtext"
+    "TomTat": {
+      "type": "richtext",
+      "required": true
     },
     "Avata": {
       "collection": "file",
       "via": "related",
       "allowedTypes": [
-        "images",
         "files",
+        "images",
         "videos"
       ],
       "plugin": "upload",
-      "required": false,
+      "required": true,
       "pluginOptions": {}
     },
     "Video": {
@@ -48,7 +55,7 @@
       "required": false,
       "pluginOptions": {}
     },
-    "Category": {
+    "DanhMuc": {
       "type": "enumeration",
       "enum": [
         "CongNghes",
@@ -57,13 +64,20 @@
         "SucKhoes",
         "ThoiTrangs",
         "TinMois",
-        "Videos"
-      ]
+        "Videos",
+        "KinhTes",
+        "VHXHs",
+        "GiaiTris",
+        "TheThaos",
+        "AmThucs"
+      ],
+      "required": true
     },
     "Time": {
-      "type": "datetime"
+      "type": "datetime",
+      "required": true
     },
-    "Hotnews": {
+    "NoiBat": {
       "type": "boolean"
     },
     "TheLoaiBai": {
@@ -72,7 +86,8 @@
         "BaiTuViet",
         "BaiCoppy",
         "BaiTongHop"
-      ]
+      ],
+      "required": false
     }
   }
 }

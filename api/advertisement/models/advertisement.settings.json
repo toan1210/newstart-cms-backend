@@ -581,6 +581,456 @@
     },
     "BrandstuffAdvertisementRightContent": {
       "type": "string"
+    },
+    "EconomyAdvertisementRight": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "CulturalAdvertisementRight": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "CulturalAdvertisementRightContent": {
+      "type": "string"
+    },
+    "EntertainAdvertisementRight": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "EntertainAdvertisementRightContent": {
+      "type": "string"
+    },
+    "SportAdvertisementRight": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "SportAdvertisementRightContent": {
+      "type": "string"
+    },
+    "EconomyAdvertisementRightContent": {
+      "type": "string"
+    },
+    "CuisineAdvertisementRightContent": {
+      "type": "string"
+    },
+    "CuisineAdvertisementRight": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "HomeAdvertisementEconomy1IMG": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "HomeAdvertisementEconomy1": {
+      "type": "string"
+    },
+    "HomeAdvertisementEconomy2": {
+      "type": "string"
+    },
+    "HomeAdvertisementEconomy2IMG": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "HomeAdvertisementEconomy3": {
+      "type": "string"
+    },
+    "HomeAdvertisementEconomy3IMG": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "HomeAdvertisementEconomy4": {
+      "type": "string"
+    },
+    "HomeAdvertisementEconomy4IMG": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "HomeAdvertisementEconomy5": {
+      "type": "string"
+    },
+    "HomeAdvertisementEconomy5IMG": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "HomeAdvertisementCultural1": {
+      "type": "string"
+    },
+    "HomeAdvertisementCultural1IMG": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "HomeAdvertisementCultural2": {
+      "type": "string"
+    },
+    "HomeAdvertisementCultural2IMG": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "HomeAdvertisementCultural3": {
+      "type": "string"
+    },
+    "HomeAdvertisementCultural3IMG": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "HomeAdvertisementCultural4": {
+      "type": "string"
+    },
+    "HomeAdvertisementCultural4IMG": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "HomeAdvertisementCultural5": {
+      "type": "string"
+    },
+    "HomeAdvertisementCultural5IMG": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "HomeAdvertisementEntertain1": {
+      "type": "string"
+    },
+    "HomeAdvertisementEntertain1IMG": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "HomeAdvertisementEntertain2": {
+      "type": "string"
+    },
+    "HomeAdvertisementEntertain2IMG": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "HomeAdvertisementEntertain3": {
+      "type": "string"
+    },
+    "HomeAdvertisementEntertain3IMG": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "HomeAdvertisementEntertain4": {
+      "type": "string"
+    },
+    "HomeAdvertisementEntertain4IMG": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "HomeAdvertisementEntertain5": {
+      "type": "string"
+    },
+    "HomeAdvertisementEntertain5IMG": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "HomeAdvertisementSport1": {
+      "type": "string"
+    },
+    "HomeAdvertisementSport1IMG": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "HomeAdvertisementSport2": {
+      "type": "string"
+    },
+    "HomeAdvertisementSport2IMG": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "HomeAdvertisementSport3": {
+      "type": "string"
+    },
+    "HomeAdvertisementSport3IMG": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "HomeAdvertisementSport4": {
+      "type": "string"
+    },
+    "HomeAdvertisementSport4IMG": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "HomeAdvertisementSport5": {
+      "type": "string"
+    },
+    "HomeAdvertisementSport5IMG": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "HomeAdvertisementCuisine1": {
+      "type": "string"
+    },
+    "HomeAdvertisementCuisine1IMG": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "HomeAdvertisementCuisine2": {
+      "type": "string"
+    },
+    "HomeAdvertisementCuisine2IMG": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "HomeAdvertisementCuisine3": {
+      "type": "string"
+    },
+    "HomeAdvertisementCuisine3IMG": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "HomeAdvertisementCuisine4": {
+      "type": "string"
+    },
+    "HomeAdvertisementCuisine4IMG": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "HomeAdvertisementCuisine5": {
+      "type": "string"
+    },
+    "HomeAdvertisementCuisine5IMG": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
     }
   }
 }

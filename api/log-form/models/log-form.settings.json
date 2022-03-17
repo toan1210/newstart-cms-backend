@@ -12,46 +12,51 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Title": {
-      "type": "string"
+    "TieuDe": {
+      "type": "string",
+      "required": true
     },
-    "Authorasd": {
-      "type": "string"
+    "TacGia": {
+      "type": "string",
+      "required": true
     },
-    "Content": {
-      "type": "richtext"
+    "NoiDung": {
+      "type": "richtext",
+      "required": true
     },
-    "Description": {
-      "type": "richtext"
+    "TomTat": {
+      "type": "richtext",
+      "required": true
     },
     "Time": {
-      "type": "datetime"
+      "type": "datetime",
+      "required": true
     },
     "Avata": {
       "collection": "file",
       "via": "related",
       "allowedTypes": [
-        "images",
         "files",
+        "images",
         "videos"
       ],
       "plugin": "upload",
-      "required": false,
+      "required": true,
       "pluginOptions": {}
     },
     "ImgTitle": {
       "collection": "file",
       "via": "related",
       "allowedTypes": [
-        "images",
         "files",
+        "images",
         "videos"
       ],
       "plugin": "upload",
-      "required": false,
+      "required": true,
       "pluginOptions": {}
     },
-    "Category": {
+    "DanhMuc": {
       "type": "enumeration",
       "enum": [
         "CongNghes",
@@ -60,8 +65,13 @@
         "SucKhoes",
         "ThoiTrangs",
         "TinMois",
-        "Videos"
-      ]
+        "KinhTes",
+        "VHXHs",
+        "GiaiTris",
+        "TheThaos",
+        "AmThucs"
+      ],
+      "required": true
     },
     "TheLoaiBai": {
       "type": "enumeration",

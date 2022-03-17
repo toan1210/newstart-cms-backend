@@ -12,10 +12,11 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Title": {
-      "type": "string"
+    "TieuDe": {
+      "type": "string",
+      "required": true
     },
-    "Category": {
+    "DanhMuc": {
       "type": "enumeration",
       "enum": [
         "CongNghes",
@@ -24,19 +25,24 @@
         "SucKhoes",
         "ThoiTrangs",
         "TinMois",
-        "Videos"
-      ]
+        "KinhTes",
+        "VHXHs",
+        "GiaiTris",
+        "TheThaos",
+        "AmThucs"
+      ],
+      "required": true
     },
     "Avata": {
       "collection": "file",
       "via": "related",
       "allowedTypes": [
-        "images",
         "files",
+        "images",
         "videos"
       ],
       "plugin": "upload",
-      "required": false,
+      "required": true,
       "pluginOptions": {}
     },
     "Content1": {
@@ -147,7 +153,7 @@
     "Time": {
       "type": "datetime"
     },
-    "Authorasd": {
+    "TacGia": {
       "type": "string"
     },
     "TheLoaiBai": {
